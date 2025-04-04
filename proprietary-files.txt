@@ -55,7 +55,7 @@ vendor/lib64/libsec2lsi_conversion.so
 vendor/lib64/libswlme.so
 
 # Patched camera HAL
-vendor/lib64/libexynoscamera3.so|6f76745e413982b2f0fdcfc732a30e0ffb3543dc|783c4d3896cda1f164444b8611e8301189136631
+vendor/lib64/libexynoscamera3.so|6f76745e413982b2f0fdcfc732a30e0ffb3543dc|256213118b13867ab13198c6b6699659174978d5
 
 # Fingerprint
 vendor/lib64/libbauthserver.so
