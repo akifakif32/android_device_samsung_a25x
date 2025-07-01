@@ -27,5 +27,15 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml \
     $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
+# Nfc
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service.st
+
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/nfc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf
+
+# Manifest
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
