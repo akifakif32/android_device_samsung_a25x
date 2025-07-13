@@ -21,5 +21,8 @@ include device/samsung/s5e8825-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/samsung/a25x
 
+# FM Radio
+BOARD_HAVE_SLSI_FM := true
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
