@@ -112,7 +112,7 @@ vendor/lib64/vendor.samsung.hardware.security.drk-V1-ndk_platform.so
 vendor/lib64/vendor.samsung.hardware.security.drk@2.0.so
 
 # Keymint
-vendor/bin/hw/android.hardware.security.keymint-service:vendor/bin/hw/android.hardware.security.keymint-service.samsung
+vendor/bin/hw/android.hardware.security.keymint-service:vendor/bin/hw/android.hardware.security.keymint-service.samsung;DISABLE_DEPS
 vendor/lib64/libskeymint10device.so
 vendor/lib64/libskeymint_cli.so
 
