@@ -27,6 +27,10 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml \
     $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
+# Init
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/init/init.s5e8825.unify.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.s5e8825.unify.rc
+
 # Nfc
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service.st
