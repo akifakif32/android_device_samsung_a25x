@@ -5754,9 +5754,11 @@
     <!-- VoiceCall paths -->
     <!-- VoiceCall CP NB -->
     <path name="gain-incall_nb-handset">
+        <ctl name="DAC1 Playback Volume" value="168 168" />
     </path>
 
     <path name="gain-incall_nb-speaker">
+        <ctl name="SPK AMP PCM Gain" value="17" />
     </path>
 
     <path name="gain-incall_nb-headset">
@@ -5796,9 +5798,11 @@
 
     <!-- VoiceCall CP WB -->
     <path name="gain-incall_wb-handset">
+        <ctl name="DAC1 Playback Volume" value="168 168" />
     </path>
 
     <path name="gain-incall_wb-speaker">
+        <ctl name="SPK AMP PCM Gain" value="17" />
     </path>
 
     <path name="gain-incall_wb-headset">
@@ -5838,9 +5842,11 @@
 
     <!-- VoiceCall CP FB -->
     <path name="gain-incall_fb-handset">
+        <ctl name="DAC1 Playback Volume" value="168 168" />
     </path>
 
     <path name="gain-incall_fb-speaker">
+        <ctl name="SPK AMP PCM Gain" value="17" />
     </path>
 
     <path name="gain-incall_fb-headset">
@@ -5883,9 +5889,11 @@
 
     <!-- VoLTECall CP NB -->
     <path name="gain-volte_cp_nb-handset">
+        <ctl name="DAC1 Playback Volume" value="168 168" />
     </path>
 
     <path name="gain-volte_cp_nb-speaker">
+         <ctl name="SPK AMP PCM Gain" value="17" />
     </path>
 
     <path name="gain-volte_cp_nb-headset">
@@ -5925,9 +5933,11 @@
 
     <!-- VoLTECall CP WB -->
     <path name="gain-volte_cp_wb-handset">
+        <ctl name="DAC1 Playback Volume" value="168 168" />
     </path>
 
     <path name="gain-volte_cp_wb-speaker">
+        <ctl name="SPK AMP PCM Gain" value="17" />
     </path>
 
     <path name="gain-volte_cp_wb-headset">
@@ -5967,9 +5977,11 @@
 
     <!-- VoLTECall CP EVS -->
     <path name="gain-volte_cp_evs-handset">
+        <ctl name="DAC1 Playback Volume" value="168 168" />
     </path>
 
     <path name="gain-volte_cp_evs-speaker">
+        <ctl name="SPK AMP PCM Gain" value="17" />
     </path>
 
     <path name="gain-volte_cp_evs-headset">
@@ -6009,9 +6021,11 @@
 
     <!-- VoLTECall CP FB -->
     <path name="gain-volte_cp_fb-handset">
+        <ctl name="DAC1 Playback Volume" value="168 168" />
     </path>
 
     <path name="gain-volte_cp_fb-speaker">
+        <ctl name="SPK AMP PCM Gain" value="17" />
     </path>
 
     <path name="gain-volte_cp_fb-headset">
