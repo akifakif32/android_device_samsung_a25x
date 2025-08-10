@@ -1,3 +1,16 @@
+# a25zhx (chn_open)
+on early-init && property:ro.boot.em.model=SM-A2560
+    # Firmware blobs
+    mount none /vendor/firmware/SM-A2560/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SM-A2560/APDV_AUDIO_SLSI.bin /vendor/firmware/APDV_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SM-A2560/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind
+    mount none /vendor/firmware/SM-A2560/NPU.bin /vendor/firmware/NPU.bin bind
+    mount none /vendor/firmware/SM-A2560/os.checked.bin /vendor/firmware/os.checked.bin bind
+    mount none /vendor/firmware/SM-A2560/vts.bin /vendor/firmware/vts.bin bind
+    mount none /vendor/firmware/SM-A2560/calliope_sram.bin /vendor/firmware/calliope_sram.bin bind
+    # TEEgris
+    mount none /vendor/tee/SM-A2560 /vendor/tee bind
+
 # a25xxx (eur_open)
 on early-init && property:ro.boot.em.model=SM-A256B
     # Firmware blobs
