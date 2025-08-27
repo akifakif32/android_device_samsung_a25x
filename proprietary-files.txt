@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version A256EXXS7CYG1, unless pinned
+# Proprietary files - from Samsung package version A256EXXS8CYG3, unless pinned
 
 # Audio Firmware
 vendor/firmware/APBargeIn_AUDIO_SLSI.bin
