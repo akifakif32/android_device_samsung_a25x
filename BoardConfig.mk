@@ -30,8 +30,11 @@ TARGET_SCREEN_WIDTH := 1080
 BOARD_HAVE_SLSI_FM := true
 
 # Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
-TARGET_ODM_PROP += $(DEVICE_PATH)/configs/props/odm.prop
-TARGET_PRODUCT_PROP += $(DEVICE_PATH)/configs/props/product.prop
-TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/configs/props/system_ext.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
+# SKU
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/sku/vendor_sku.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/sku/system_sku.prop
+TARGET_ODM_PROP += $(DEVICE_PATH)/configs/sku/odm_sku.prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/configs/sku/product_sku.prop
+TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/configs/sku/system_ext_sku.prop
