@@ -20,6 +20,9 @@ $(call inherit-product, device/samsung/s5e8825-common/common.mk)
 # Inherit the proprietary files
 $(call inherit-product, vendor/samsung/a25x/a25x-vendor.mk)
 
+# Setup dalvik vm configs
+$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
+
 DEVICE_PATH := device/samsung/a25x
 
 # Audio
