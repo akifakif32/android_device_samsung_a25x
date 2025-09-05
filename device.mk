@@ -27,9 +27,9 @@ DEVICE_PATH := device/samsung/a25x
 
 # Audio
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/audio/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml \
     $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
-    $(DEVICE_PATH)/configs/audio/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml
+    $(DEVICE_PATH)/configs/audio/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml \
+    $(DEVICE_PATH)/configs/audio/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml
 
 # FM Radio
 PRODUCT_PACKAGES += \
@@ -44,11 +44,9 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/init/init.a25x.unify.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.a25x.unify.rc
 
 # Nfc
-PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2-service.st
+PRODUCT_PACKAGES += android.hardware.nfc@1.2-service.st
 
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/nfc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf
+PRODUCT_COPY_FILES += $(DEVICE_PATH)/configs/nfc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
