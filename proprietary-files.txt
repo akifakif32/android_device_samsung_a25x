@@ -3,23 +3,14 @@
 # Audio Firmware
 vendor/firmware/abov/a96t396_a25x_main.bin
 vendor/firmware/APBargeIn_AUDIO_SLSI.bin
-vendor/firmware/APBiBF_AUDIO_SLSI.bin
-vendor/firmware/APSV_AUDIO_SLSI.bin
-vendor/firmware/OD_V2.1.6_01_26_QVGA.nnc
-vendor/firmware/OD_V2.3.7_02_05_VGA.nnc
 vendor/firmware/SetMultiCalInfo.bin
 vendor/firmware/SoundBoosterParam.bin
 vendor/firmware/a2dpcom.bin
 vendor/firmware/abox_tplg.bin
 vendor/firmware/abox_tplg.conf
-vendor/firmware/avsyncmix.bin
-vendor/firmware/bidirmic.bin
 vendor/firmware/calliope_dram.bin
-vendor/firmware/dolby.bin
-vendor/firmware/listenbackeffect.bin
 vendor/firmware/sb_music.bin
 vendor/firmware/sb_others.bin
-vendor/firmware/volumemonitor.bin
 
 # Audio Firmware
 vendor/firmware/APDV_AUDIO_SLSI.bin:vendor/firmware/SM-A256E/APDV_AUDIO_SLSI.bin
@@ -64,8 +55,6 @@ vendor/lib64/libbauthtzcommon.so
 # Firmware
 vendor/firmware/nfc/st21nfc_fw.bin
 vendor/firmware/secnvm/k250a_fw_image.manifest
-vendor/firmware/dax_param.bin
-vendor/firmware/default_configuration.flm.cfg.bin
 vendor/firmware/ft3519_a25x.bin
 vendor/firmware/gt9895_a25x.bin
 vendor/firmware/is_lib.bin
@@ -78,7 +67,6 @@ vendor/firmware/lmecpu_JN1.json
 vendor/firmware/rxse.bin
 vendor/firmware/sectiongraph_tplg.bin
 vendor/firmware/sectiongraph_tplg.conf
-vendor/firmware/secure_configuration.flm.cfg.bin
 vendor/firmware/setfile_4ha.bin
 vendor/firmware/setfile_gc02m1.bin
 vendor/firmware/setfile_hi1339.bin
