@@ -99,7 +99,6 @@ vendor/bin/hermesd
 vendor/etc/init/hermesd.rc
 vendor/etc/init/vendor.samsung.hardware.security.hermes.rc
 vendor/etc/vintf/manifest/vendor.samsung.hardware.security.hermes.xml
-vendor/lib/libhermes.so
 vendor/lib64/libhermes.so
 vendor/lib64/libhermes_bdbridge.so
 vendor/lib64/vendor.samsung.hardware.security.hermes-V1-ndk_platform.so
