@@ -34,10 +34,3 @@ BOARD_HAVE_SLSI_FM := true
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-
-# SKU
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/sku/vendor_sku.prop
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/sku/system_sku.prop
-TARGET_ODM_PROP += $(DEVICE_PATH)/configs/sku/odm_sku.prop
-TARGET_PRODUCT_PROP += $(DEVICE_PATH)/configs/sku/product_sku.prop
-TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/configs/sku/system_ext_sku.prop
