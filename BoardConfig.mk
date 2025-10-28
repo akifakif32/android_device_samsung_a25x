@@ -33,5 +33,4 @@ BOARD_DTBO_CFG := $(DEVICE_PATH)/configs/a25x.cfg
 BOARD_HAVE_SLSI_FM := true
 
 # Properties
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
