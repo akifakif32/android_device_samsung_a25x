@@ -120,23 +120,6 @@ vendor/firmware/gt9895_a25x.bin:recovery/root/vendor/firmware/gt9895_a25x.bin
 # RIL
 vendor/etc/floating_feature.xml
 
-# Security - Hermes
-vendor/bin/hw/vendor.samsung.hardware.security.hermes-service
-vendor/bin/hermesd
-vendor/etc/init/hermesd.rc
-vendor/etc/init/vendor.samsung.hardware.security.hermes.rc
-vendor/etc/vintf/manifest/vendor.samsung.hardware.security.hermes.xml
-vendor/lib64/libhermes.so
-vendor/lib64/libhermes_bdbridge.so
-vendor/lib64/vendor.samsung.hardware.security.hermes-V1-ndk_platform.so
-
-# Security - Hermes - Dependencies
-vendor/lib64/libhwvault.so
-vendor/lib64/libisosechw.so
-vendor/lib64/libshctrl.so
-vendor/lib64/vendor.samsung.hardware.security.drk-V1-ndk_platform.so
-vendor/lib64/vendor.samsung.hardware.security.drk@2.0.so
-
 # Security - TEEgris Firmware - from SM-A2560 - A2560ZHS7CYG4
 vendor/tee/SM-A2560/driver/00000000-0000-0000-0000-42494f415448|83fe9719397e34bbb72064c6bdc901b2cdb0611f
 vendor/tee/SM-A2560/driver/00000000-0000-0000-0000-494363447256|353917133c564cbfee841508b8cca5584e9aeae4
@@ -254,15 +237,6 @@ vendor/tee/SM-A256E/00000000-0000-0000-0000-6b6e78677564|5b34a2b711bec827bd12c7a
 vendor/tee/SM-A256E/00000000-0000-0000-0000-6d706f667376|8fd51fcdec011f861705b6356a9153df815d63bd
 vendor/tee/SM-A256E/00000000-0000-0000-0000-6d73745f5441|4d92955eac2126e73156f57b3eaf6e13b8d39788
 vendor/tee/SM-A256E/ffffffff-0000-0000-0000-000000000030|001830e072144c36d4ed463f03d30830827c54ba
-
-# Security - Weaver
-vendor/etc/vintf/manifest/iweaver_v1_manifest.xml
-vendor/lib64/android.hardware.weaver@1.0.so:vendor/lib64/android.weaver@1.0.so;FIX_SONAME
-
-# Security - Weaver - Firmware
-vendor/etc/secnvm/k250a_41000001_1.img
-vendor/etc/secnvm/k250a_41000003_0.img
-vendor/etc/secnvm/k250a_41000006_c.img
 
 # Wi-Fi - Firmware
 vendor/firmware/wifi/mx140_common.hcf
