@@ -64,6 +64,10 @@ vendor/lib64/libswlme.so
 # Camera - Patched HAL
 vendor/lib64/libexynoscamera3.so|cdb3c93366c46ba639378cab3d839ed98afbb85e|075f5010cd26fc9c629816e6e1dc33f7395ac950
 
+# Display - Calibration
+vendor/etc/dqe/calib_data_atc_s6e3fc3_a25x.xml
+vendor/etc/dqe/calib_data_colormode0_s6e3fc3_a25x.xml
+
 # Fingerprint - Dependencies
 vendor/lib64/libbauthserver.so
 vendor/lib64/libbauthtzcommon.so
