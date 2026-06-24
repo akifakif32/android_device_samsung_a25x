@@ -27,6 +27,9 @@ DEVICE_PATH := device/samsung/a25x
 
 # Audio - Configuration
 PRODUCT_PACKAGES += mixer_paths.xml
+PRODUCT_PACKAGES += \
+    audio_board_info.xml \
+    mixer_paths.xml
 
 # FM Radio
 PRODUCT_PACKAGES += \
